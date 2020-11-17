@@ -1,0 +1,9 @@
+classes= 80
+train  = /home/bepro/annotation/bepro/yolo_train.txt
+valid = /home/bepro/annotation/bepro/yolo_val.txt
+#valid  = coco_testdev
+#valid = data/coco_val_5k.list
+names = coco.names
+backup = /home/bepro/darknet/backup
+eval=coco
+
